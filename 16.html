@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="silver">
+<h2><font color="blue">Krijimi i formulareve</font></h2>
+
+<p>Krijimi i formulareve eshte procedure te cilen do ta perdorim shpesh nese deshirojme qe
+vizitoret e ueb sajtit te plotesojne te dhena te ndryshme,te cilat duhet te na percillen.</p>
+
+<hr width="90%" size="5" align="center" color="red">
+
+<p><font color="maroon">Apliko online per regjistrim ne IAAP "Fan S. Noli" ne
+Podujeve</font></p>
+
+<form action="/proces.php" method="post">
+
+<p><label for="emri">Emri: </label>
+    <INPUT type="text" id="firstname"><br>
+ <label for="mbiemri">Mbiemri: </label>
+    <INPUT type="text" id="lastname"><br>
+ <label for="email">email: </label>
+    <INPUT type="text" id="email"><br>
+<input type="radio" name="gjinia" value="Femer">Femer<br>
+<input type="radio" name="gjinia" value="Mahkull">Mashkull<br>
+
+<p>Ju lutem zgjidhni drejtimin</p>
+
+Zhvillues i aplikacioneve: <input type="checkbox" name="Drejtimet" value="Zhvillues i
+aplikacioneve"/><br/>
+Teknik i sistemeve te IT<input type="checkbox" name="Drejtimet" value="Teknik i sistemeve te
+IT"/><br>
+Telekomunikacion:              <input          type="checkbox"         name="Drejtimet"
+value="Telekomunikacion"/><br>
+Energjetike: <input type="checkbox" name="Drejtimet" value="Energjetike"/><br>
+
+<label for="lenda zgjedhore">Lenda zgjedhore</label>
+<Select id="lenda zgjedhore" name="lenda zgjedhore">
+<option value="siguria_kibernetike">Siguria Kibernetike</option>
+<option value="inteligjenca_artificiale">Inteligjenca Artificiale</option>
+<option value="kriptografia">kriptografia</option>
+</Select><br>
+
+<input type="submit" value="Dergo"> <input type="reset" value="Rifilllo">
+</form>
+</body>
+</html>
