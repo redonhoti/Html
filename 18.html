@@ -1,0 +1,193 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <!--Shembulli ne vazhdim eshte vetem per te shpjeguar ngjyrat ne HTML me vlera
+        heksadecimale,pasi e perfundoni kete detyre ju duhet te demonstroni tjera mundesi me ngjyra ne
+        HTML-->
+        
+        <h2 align="center" style="background-color: dodgerblue;">INSTITUCIONI I ARSIMIT DHE 
+        AFTESIMIT PROFESIONAL <br> "FAN S.NOLI" NE PODUJEVE</h2>
+        
+        <p style="background-color: tomato;">
+        Nje nder shkollat me te vjetra ne Kosove edhe ne Podujeve qe sot e mban emrin e shkrimtarit 
+        tone te njohur Fan S.Noli.Kjo shkolle ishte dhe mbeti nje dritare qe rrezatoi drite diturie edhe ne
+        periudhat me t erreta te historise sone</p>
+        
+        <h3 style="color:tomato;">Logoja e shkolles</h3>
+        
+        <center><img src="images.jpg" width="500" height="300"></center>
+        <h3>Pershkrimi narrativ i logos</h3>
+        <p style="color:dodgerblue;">Emri i shkolles dhe vendi eshte pershkruar ne logo,ndersa
+        tempulli ne mes perfaqeson ndertesen e dijes(tempulli i dijes),dy kulmet jane marr nga objekti i
+        shkolles tone per identifikim.Gjashte kolonat perfqesojne profilet mesimore te paraqitura me 
+        tutje.Viti 1971 edhte viti kur kane filluar klasat e para ne Podujeve per drejtimet teknike.</p>
+        
+        <h2 style="background-color: #ff0000;">I.Elektroteknike</h2>
+        <h2 style="background-color: #0000ff;">II.Ndertimtari dhe arkitekture</h2>
+        <h2 style="background-color: #3cb371;">III.Komunikacion</h2>
+        <h2 style="background-color: #ee82ee;">IV.Makineri</h2>
+        <h2 style="background-color: #ffa500;">V.Perpunim i drurit</h2>
+        <h2 style="background-color: #6a5acd;">VI.Tekstil</h2>
+        
+        <h2 style="color:#a9c450;">Disa nga profilet ne IAAP "Fan S.Noli"</h2>
+        
+        <!--Nese perseritem vlerat heksidecimale per tri ngjyrat do te kemi hijezimin me intenzitet te
+        ndryshem-->
+        <h2 style="background-color:#a0a0a0;">Zshvillues i aplikacioneve softuerike</h2>
+        <h2 style="background-color:#bebebe;">Teknik i sistemeve te IT</h2>
+        <h2 style="background-color:#dcdcdc;">Informatika e biznesit</h2>
+        <h2 style="background-color:#5c5c5c;">Dizajn grafik</h2>
+        </body>
+        </html>
+        <style>
+            .relative{
+                border: 3px solid black;
+                padding: 30px;
+                width: 30%;
+                margin-bottom: 5px;
+            }
+            .main{
+                margin-top: 40px;
+                text-align: center;
+                font-size: 20px;
+            }
+        </style>
+        </head>
+        <body>
+            <div class="relative">
+                <h1>Pozicionimi relativ</h1>
+                <div class="main" style="color: red;">elementi 1</div>
+                <div style="color:green;">elementi 2</div>
+                <div style="color:blue;">elementi 3</div>
+            </div>
+            <head>
+                <title>Forma</title>
+         </head>
+         <body style="padding: 50px;">
+             <form method="get" action="#" style="width: 500px;">
+                 <fieldset style="margin: 10px;">
+                     <legend>lutem shkruani te dhenat personale</legend>
+                     <div style="margin: 10px">
+                 <div>
+                     <label for="Id">ID</label>
+                 </div>
+                 </div>
+                     <input type="text" name="ID" id="Id"/>
+                 </div>
+             </div>
+             </fieldset>
+             <fieldset>
+                 <legend>Te dhenat personale</legend>
+                 <div style="margin: 10px;">
+                 <div style="margin: 10px;">
+                     <label for="emri">Emri</label>
+                     <input type="text" name="emri" id="emri"/>
+                 </div>
+                 </div>
+                 <div style="margin: 10px;">
+                 <div>
+                     <label for="mbiemri">Mbiemri</label>
+                     <input type="text" name="mbiemri" id="mbiemri"/>
+                 </div>
+                 </div>
+                 <div style="margin: 10px;">
+                 <div>
+                     <label for="vendlindja">Vendlindja</label>
+                     <input type="text" name="vendlindja" id="vendlindja"/>
+                 </div>
+                 </div>
+                 <div style="margin: 10px;">
+                 <div>
+                     <label for="mosha">Mosha</label>
+                     <input type="text" name="mosha" id="mosha"/>
+                 </div>
+                 </div>
+                 <div style="margin: 10px;">
+                 <label for="gjinia" style="display: inline-block;width: 100px;">Gjinia</label>
+                 <input type="radio" name="gjinia" value="M"/><label>M</label>
+                 <input type="radio" name="gjinia" value="F"/><label>F</label>
+                 </div>
+             </fieldset>
+             <fieldset style="margin: 10px;">
+                 <legend>Te dhenat tjera</legend>
+                 <div style="margin: 10px;">
+                     <label for="email" style="display: inline-block;width: 100px;">Email adresa</label>
+                     <input type="email" name="email" id="email"/>
+                 </div>
+                 <div>
+                     <label for="fjalekalimi" style="display: inline-block;width: 100px;"> Fjalekimi</label
+                     <input type="password" name="fjalekalimi" id="fjalekalimi"></input>
+                 </div>
+                 <div style="margin: 10px;">
+                     <label style="display: inline-block;width: 100px;">Kursi</label>
+                     <input
+                           type="checkbox"
+                           name="frontend"
+                           id="frontend"
+                           value="frontend"
+                           /> <label> Front-End</label>
+                           <input
+                           type="checkbox"
+                           name="backend"
+                           id="backend"
+                           value="frontend"
+                           /> <label> Back-End</label>
+                 </div>
+                 <div style="margin: 10px;">
+                     <label for="komenti" style="display: inline-block;width: 100px;">Komenti</label>
+                     <textarea style="background-color: brown; color: white" name="komenti" id="komenti"></textarea>
+                 </div>
+             </fieldset>
+             <button type="submit" style="margin-left: 10px;">  Apliko</button>
+             </div>
+             </form>
+             <body bgcolor="silver">
+                <h2><font color="blue">Krijimi i formulareve</font></h2>
+                
+                <p>Krijimi i formulareve eshte procedure te cilen do ta perdorim shpesh nese deshirojme qe
+                vizitoret e ueb sajtit te plotesojne te dhena te ndryshme,te cilat duhet te na percillen.</p>
+                
+                <hr width="90%" size="5" align="center" color="red">
+                
+                <p><font color="maroon">Apliko online per regjistrim ne IAAP "Fan S. Noli" ne
+                Podujeve</font></p>
+                
+                <form action="/proces.php" method="post">
+                
+                <p><label for="emri">Emri: </label>
+                    <INPUT type="text" id="firstname"><br>
+                 <label for="mbiemri">Mbiemri: </label>
+                    <INPUT type="text" id="lastname"><br>
+                 <label for="email">email: </label>
+                    <INPUT type="text" id="email"><br>
+                <input type="radio" name="gjinia" value="Femer">Femer<br>
+                <input type="radio" name="gjinia" value="Mahkull">Mashkull<br>
+                
+                <p>Ju lutem zgjidhni drejtimin</p>
+                
+                Zhvillues i aplikacioneve: <input type="checkbox" name="Drejtimet" value="Zhvillues i
+                aplikacioneve"/><br/>
+                Teknik i sistemeve te IT<input type="checkbox" name="Drejtimet" value="Teknik i sistemeve te
+                IT"/><br>
+                Telekomunikacion:              <input          type="checkbox"         name="Drejtimet"
+                value="Telekomunikacion"/><br>
+                Energjetike: <input type="checkbox" name="Drejtimet" value="Energjetike"/><br>
+                
+                <label for="lenda zgjedhore">Lenda zgjedhore</label>
+                <Select id="lenda zgjedhore" name="lenda zgjedhore">
+                <option value="siguria_kibernetike">Siguria Kibernetike</option>
+                <option value="inteligjenca_artificiale">Inteligjenca Artificiale</option>
+                <option value="kriptografia">kriptografia</option>
+                </Select><br>
+                
+                <input type="submit" value="Dergo"> <input type="reset" value="Rifilllo">
+                </form>
+                </body>
+                </html>
+
+         </body>
+         </html>
